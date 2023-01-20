@@ -9,7 +9,9 @@
 .idea
 yarn.lock
 
-__tmp__
+__tmp__/*
+node_modules/input_checker/__tmp__/*
+personal_modules/__tmp__/*
 
 # Swap the comments on the following lines if you don't wish to use zero-installs
 # Documentation here: https://yarnpkg.com/features/zero-installs
