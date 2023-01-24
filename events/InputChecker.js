@@ -1,4 +1,3 @@
-"use strict";
 import util from 'util';
 import { EventEmitter } from 'events';
 import fs from 'fs';
@@ -30,7 +29,7 @@ let ic = new InputChecker('Shelley', 'output');
 
 // metodo addListener é equivalente ao metodo on
 
-ic.addListener('write', function (data) {
+ic.on('write', function (data) {
   this.writeStream.write(data, 'utf8');
 })
 
